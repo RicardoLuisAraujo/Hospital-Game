@@ -1,0 +1,37 @@
+# This .gitignore file should be placed at the root of your Unity project
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+!/[Pp]ackages/**/*.meta
+!/[Pp]roject[Ss]ettings/**/*.meta
+
+# User-specific files
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# Unity cache
+.DS_Store
+Thumbs.db
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# Crash reports
+sysinfo.txt
+
+# Addressables
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
