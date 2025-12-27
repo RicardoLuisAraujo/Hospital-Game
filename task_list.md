@@ -1,33 +1,23 @@
 # Haunted Hospital - Task List
 
-## Project Setup
-- [ ] Initialize Unity Project with URP <!-- id: 0 -->
-- [ ] Install Cinemachine via Package Manager <!-- id: 1 -->
-- [ ] Install New Input System via Package Manager <!-- id: 2 -->
-- [ ] Set up basic scene folder structure (Scenes, Scripts, Prefabs, Assets) <!-- id: 3 -->
+## Phase 1: Foundation & Project Setup
+- [x] Review existing `plan.md` and `task_list.md`
+- [x] Initialize Folder Structure (Scripts/Core, Scripts/Dialogue, Scripts/Puzzle)
+- [x] Configure Environment Transition Script
 
-## Core Systems Implementation
-- [ ] Create `GameManager` for Day/Night state switching <!-- id: 4 -->
-- [ ] Implement Modern 3D Character Controller <!-- id: 5 -->
-- [ ] Configure Cinemachine Follow Camera <!-- id: 6 -->
+## Phase 2: Core State Management
+- [x] Implement `GameManager` with State Machine (Day/Night)
+- [x] Create `PhaseSwitcher` debug tool for testing transitions
 
-## Dialogue System
-- [ ] Create `DialogueBase` ScriptableObject <!-- id: 7 -->
-- [ ] Implement `DialogueManager` to handle flow <!-- id: 8 -->
-- [ ] Create basic UI for Dialogue display <!-- id: 9 -->
-- [ ] Implement interaction trigger for NPCs <!-- id: 10 -->
+## Phase 3: Day Mode (Persona Style)
+- [x] Character Controller (Modern 3D, Camera-relative, Rotation smoothing)
+- [x] ScriptableObject-based Dialogue System
+- [x] Interaction Trigger & NPC Placeholder
 
-## Assets & Environment
-- [ ] Import/Setup placeholder character model <!-- id: 11 -->
-- [ ] Create a prototype room for "Day" mode <!-- id: 12 -->
-- [ ] Set up basic lighting for Day/Night modes <!-- id: 13 -->
+## Phase 4: Night Mode (Atmospheric Shift)
+- [x] Surreal Lighting/Environment Overrides (Color shifts, Post-processing)
+- [x] Implement "Night" specific dialogue variants
+- [x] Prototype "Uncanny" environment changes
 
-## Night Mode Foundations
-- [ ] Implement Night Mode lighting variant <!-- id: 17 -->
-- [ ] Prototype basic puzzle interaction <!-- id: 18 -->
-
-## Testing & Verification
-- [ ] Test Day/Night state transition <!-- id: 14 -->
-- [ ] Verify movement speed and camera feel <!-- id: 15 -->
-- [ ] Test dialogue branching and player choice selection <!-- id: 16 -->
-- [ ] Verify environment shift during transition <!-- id: 19 -->
+## Phase 5: Verification & Polish
+- [x] Verify core systems and document in walkthrough
